@@ -1,17 +1,17 @@
 #1 задание
 
-#n = int(input("Введите число домов"))
-#for i in range(1, n+1):
-#    print(" ~~~~~", sep='', end=" ")
-#print()
-#for i in range(1, n+1):
-#    print('/_____\ ', end="")
-#print()
-#for i in range(1, n+1):
-#    print("| []  |", end=" ")
-#print()
-#for i in range(1, n+1):
-#    print(" -----", end=" ")
+n = int(input("Введите число домов"))
+for i in range(1, n+1):
+    print(" ~~~~~", end=" ")
+print()
+for i in range(1, n+1):
+    print('/_____\ ', end="")
+print()
+for i in range(1, n+1):
+    print("| []  |", end=" ")
+print()
+for i in range(1, n+1):
+    print(" -----", end=" ")
 
 # 2 задание
 #from random import *
@@ -48,6 +48,10 @@
 #        b+=klass_1
 #print("Наибольший балл - ", round(a,1))
 #print("Наименьший балл - ", round(b,1))
+
+
+
+
 
 #4 задание
 
